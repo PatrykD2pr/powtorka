@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             val imie = findViewById<EditText>(R.id.txt).text.toString()
             var pole = findViewById<TextView>(R.id.pole)
 
-            pole.text = "Patryk Domaszek " + imie
+            pole.text = "Patryk Domaszek"
         }
     }
 }
